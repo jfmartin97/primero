@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_glide_date_1" label="datos" language="en" table="x_329588_prueba_jorge">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_glide_date_1</element>
+            <help/>
+            <hint/>
+            <label>datos</label>
+            <language>en</language>
+            <name>x_329588_prueba_jorge</name>
+            <plural>datos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-21 08:36:37</sys_created_on>
+            <sys_id>a351e042db98330065672fb7489619ba</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>datos</sys_name>
+            <sys_package display_value="prueba" source="x_329588_prueba">f43e9842db18330065672fb748961969</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="prueba">f43e9842db18330065672fb748961969</sys_scope>
+            <sys_update_name>sys_documentation_x_329588_prueba_jorge_u_glide_date_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-21 08:38:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

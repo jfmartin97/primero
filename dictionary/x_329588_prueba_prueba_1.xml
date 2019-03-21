@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="prueba_1" max_length="40" name="x_329588_prueba_prueba_1" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Fecha" max_length="40" name="u_glide_date_2" type="glide_date"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Precio" max_length="20" name="u_price_3" type="price"/>
+        <element attributes="edge_encryption_enabled=true" label="Nombre" max_length="255" name="u_string_full_utf8_1" type="string_full_utf8"/>
+    </element>
+</database>

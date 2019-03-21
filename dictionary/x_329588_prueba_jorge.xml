@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="jorge" max_length="40" name="x_329588_prueba_jorge" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="numero" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="lista" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="amarillo" sequence="0" value="amarillo"/>
+                <element inactive_on_update="false" label="rojo" sequence="1" value="rojo"/>
+                <element inactive_on_update="false" label="azul" sequence="2" value="azul"/>
+                <element inactive_on_update="false" label="verde" sequence="3" value="verde"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="datos" max_length="40" name="u_glide_date_1" type="glide_date"/>
+    </element>
+</database>

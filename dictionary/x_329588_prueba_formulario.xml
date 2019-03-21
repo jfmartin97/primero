@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="formulario" max_length="40" name="x_329588_prueba_formulario" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="1-high" label="Priority" max_length="40" name="u_choice_17" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1-High" sequence="0" value="1-high"/>
+                <element inactive_on_update="false" label="2-Medium" sequence="1" value="2-medium"/>
+                <element inactive_on_update="false" label="3-Low" sequence="2" value="3-low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_6" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="New Currency" max_length="20" name="u_currency_3" type="currency"/>
+        <element label="New Field Name" max_length="80" name="u_field_name_8" type="field_name"/>
+        <element attributes="edge_encryption_enabled=true" label="New Date" max_length="40" name="u_glide_date_7" type="glide_date"/>
+        <element label="New Duration" max_length="40" name="u_glide_duration_10" type="glide_duration"/>
+        <element attributes="edge_encryption_enabled=true" label="Nombre" max_length="40" name="u_nombre" type="string"/>
+        <element label="New Reference" max_length="32" name="u_reference_9" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element label="Reference for" mandatory="true" max_length="32" name="u_reference_for" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Request Type" mandatory="true" max_length="40" name="u_request_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Human Resources" sequence="0" value="hr"/>
+                <element inactive_on_update="false" label="Facilities" sequence="1" value="facilities"/>
+                <element inactive_on_update="false" label="Legal" sequence="2" value="legal"/>
+                <element inactive_on_update="false" label="Your Departament Choice" sequence="3" value="your departament choice"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" mandatory="true" max_length="40" name="u_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="13"/>
+                <element inactive_on_update="false" label="Awaiting Approval" sequence="1" value="14"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="15"/>
+                <element inactive_on_update="false" label="Awaiting Feedback" sequence="3" value="16"/>
+                <element inactive_on_update="false" label="Close completed" sequence="4" value="3"/>
+                <element inactive_on_update="false" label="Withdrawn" sequence="5" value="8"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Apellido" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="base_start=true" label="New Table Name" max_length="80" name="u_table_name_11" type="table_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="legal _1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Human Resources 1" sequence="0" value="hr1"/>
+                <element inactive_on_update="false" label="Human Resources 2" sequence="1" value="hr2"/>
+                <element inactive_on_update="false" label="Facilities 1" sequence="2" value="facilities1"/>
+                <element inactive_on_update="false" label="Facilities 2" sequence="3" value="facilities2"/>
+                <element inactive_on_update="false" label="Legal 1" sequence="4" value="legal _1"/>
+                <element inactive_on_update="false" label="Legal 2" sequence="5" value="legal _2"/>
+                <element inactive_on_update="false" label="Your Departament Choice 1" sequence="6" value="your _choice_1"/>
+                <element inactive_on_update="false" label="Your Departament Choice 2" sequence="7" value="your_chioice_2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date"/>
+    </element>
+</database>
